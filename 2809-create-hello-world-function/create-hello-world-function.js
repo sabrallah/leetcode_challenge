@@ -1,7 +1,7 @@
 /**
  * @return {Function}
  */
-var createHelloWorld = (...args)=>{
+function createHelloWorld(){
     return ()=>{
         return "Hello World"    
     }
