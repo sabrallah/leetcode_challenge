@@ -1,8 +1,8 @@
 /**
  * @return {Function}
  */
-var createHelloWorld = function(...args) {
-    return function(...args) {
+var createHelloWorld = (...args)=>{
+    return ()=>{
         return "Hello World"    
     }
 };
